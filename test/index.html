@@ -14,17 +14,20 @@
     <!--<script src="../node_modules/mocha-phantomjs-core/browser-shim.js"></script>-->
     <script src="../dist/flexsearch.es5.js"></script>
     <script>
+        { /*
         window.initMochaPhantomJS && initMochaPhantomJS();
         mocha.ui('bdd');
         mocha.reporter('html');
         mocha.setup('bdd');
         var expect = chai.expect;
         var env = "min";
+        */
+        }
     </script>
     <script src="test.js"></script>
     <!--<script src="test.es6.js"></script>-->
     <script>
-        if(window.mochaPhantomJS) {
+        { /* if(window.mochaPhantomJS) {
 
             mochaPhantomJS.run();
         }
@@ -32,6 +35,8 @@
 
             mocha.run();
         }
+        */
+       }
     </script>
 </body>
 </html>

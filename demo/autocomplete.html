@@ -138,7 +138,7 @@
 
         function accept_autocomplete(event){
 
-            if((event || window.event).keyCode === 13) {
+            if((event).keyCode === 13) {
 
                 this.value = autocomplete.value = autocomplete.current;
             }
@@ -146,7 +146,7 @@
 
         function accept_suggestion(event){
 
-            var target = (event || window.event).target;
+            var target = (event).target;
 
             userinput.value = autocomplete.value = target.textContent;
 
