@@ -18,7 +18,6 @@
     "email": "info@nextapps.de"
   },
   "main": "dist/flexsearch.node.js",
-  "browser": "dist/flexsearch.min.js",
   "preferGlobal": false,
   "bin": {},
   "repository": {
